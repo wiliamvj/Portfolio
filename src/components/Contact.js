@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react';
 import axios from "axios";
 import { Formik } from 'formik';
 import * as Yup from 'yup';
-import Input from './Input';
 
 class Contact extends Component {
 
