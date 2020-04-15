@@ -172,7 +172,7 @@ a {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-image: linear-gradient(120deg, #7054ff, #2669ff);
+    background-image: linear-gradient(120deg, #44475a, #2669ff);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -193,7 +193,7 @@ a {
   .site-section--with-clipmask {
     clip-path: polygon(72% 0, 100% 12%, 100% 100%, 100% 100%, 0 100%, 0 18%); }
   .site-section--with-background {
-    background-color: #1E88E5; }
+    background-color: #44475a; }
   .site-section__icon {
     fill: none;
     stroke: #444444;
@@ -319,7 +319,7 @@ a {
 
 .site-footer {
   padding: 10rem 0 3rem 0;
-  background-color: #1E88E5; }
+  background-color: #44475a; }
   .site-footer--with-clipmask {
     clip-path: polygon(72% 0, 100% 12%, 100% 100%, 100% 100%, 0 100%, 0 18%); }
   .site-footer__quote {
