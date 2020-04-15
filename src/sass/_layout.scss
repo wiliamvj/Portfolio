@@ -629,6 +629,7 @@
 		display: block;
 		font-size: 1.7rem;
 		margin-bottom: 1rem;
+		color: $color-white;
 	}
 
 
@@ -637,11 +638,16 @@
 		display: block;
 		border-radius: 4px;
 		width: 100%;
+		color: $color-white;
 		font-size: 1.7rem;
-		border: 1px solid #E6ECF8;
+		background: $color-form;
+		border-width: 2px;
+   	 	border-style: solid;
+    	border-color: rgb(40, 39, 44);
 		padding: 0 2rem;
-	    font-size: 1.7rem;
-	    font-family: 'Roboto';
+	    font-size: 2rem;
+		font-family: 'Roboto';
+		resize: vertical;
 		&:focus {
 			outline: none;
 			border-color: $color-primary;
@@ -653,8 +659,12 @@
 		height: 5rem;
 		border-radius: 4px;
 		width: 100%;
-		font-size: 1.7rem;
-		border: 1px solid #E6ECF8;
+		font-size: 2rem;
+		color: $color-white;
+		background: $color-form;
+		border-width: 2px;
+    	border-style: solid;
+    	border-color: rgb(40, 39, 44);
 		padding: 0 2rem;
 
 		&-error {
