@@ -9,7 +9,7 @@ const portfolioData = {
 		{
 			"id": 0,
 			"title": "Movie Library using React/Redux",
-			"imageUrl": "images/portfolio/movie-app-thumbnail.png",
+			"imageUrl": "images/portfolio/mhi-thumbnail.jpg",
 			"link": "https://movie-db-app.netlify.com/discover/popular/",
 			"codeLink": "https://github.com/jrussumbrella/react-movie-library",
 			"description": "This projects fetches data from themovied.org api. It basically display all popular, top rated, upcoming movies from the api. View and search info to certain movie.",
@@ -18,7 +18,7 @@ const portfolioData = {
 		{
 			"id": 1,
 			"title": "Hataw Ecommerce Website",
-			"imageUrl": "images/portfolio/hataw-thumbnail.png",
+			"imageUrl": "images/portfolio/mhi-thumbnail.jpg",
 			"link": "https://hataw.ph/shop/",
 			"codeLink": "",
 			"description": "Hataw is an Ecommerce website that provides low cost and high quality products. Im the one who do the front end stuff in this project.",
@@ -27,7 +27,7 @@ const portfolioData = {
 		{
 			"id": 2,
 			"title": "Hataw Web",
-			"imageUrl": "images/portfolio/hataw-web.png",
+			"imageUrl": "images/portfolio/mhi-thumbnail.jpg",
 			"link": "https://hataw.netlify.com/",
 			"codeLink": "",
 			"description": "Hataw Web is a projects that show all quality products. It is just for showcasing all the low cost and high quality products",
@@ -36,7 +36,7 @@ const portfolioData = {
 		{
 			"id": 3,
 			"title": "Hataw Ecommerce (Wap)",
-			"imageUrl": "images/portfolio/hataw-wap.png",
+			"imageUrl": "images/portfolio/mhi-thumbnail.jpg",
 			"link": "https://hataw.ph/wap/",
 			"codeLink": "",
 			"description": "Hataw Ecommerce (Wap) is a mobile web version.",
@@ -45,7 +45,7 @@ const portfolioData = {
 		{
 			"id": 4,			
 			"title": "Paper Todo App using React",
-			"imageUrl": "images/portfolio/react-todo-thumbnail.png",
+			"imageUrl": "images/portfolio/mhi-thumbnail.jpg",
 			"link": "",
 			"codeLink": "https://github.com/jrussumbrella/react-paper-todo",
 			"description": "Simple to do app that uses local storage to save to do list.",
