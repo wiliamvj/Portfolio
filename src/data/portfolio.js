@@ -2,7 +2,7 @@ const portfolioData = {
 	"imageUrl": 'http://localhost:3000/',
 	"logo": "images/app-logo.svg",
 	"logoWhite": "images/app-logo-white.svg",
-	"name": 'Wiliam V. Joaquim',
+	"name": 'your name',
 	"role": 'Full Stack Developer',
 	"intro": "Talking is easy. Show me the code.",
 	"projects": [
