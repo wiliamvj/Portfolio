@@ -3,8 +3,8 @@ const portfolioData = {
 	"logo": "images/app-logo.svg",
 	"logoWhite": "images/app-logo-white.svg",
 	"name": 'your name',
-	"role": 'Full Stack Developer',
-	"intro": "Talking is easy. Show me the code.",
+	"role": 'Tell me your best skill',
+	"intro": "Put a breathtaking phrase here.",
 	"projects": [
 		{
 			"id": 0,
@@ -89,16 +89,22 @@ const portfolioData = {
 	],
 	"workExp": [
 		{
-			"title": "Front-end Developer",
-			"date": 'June 2017- June 2019',
-			"description": "Converting mockup designs into web pages, making sure it's mobile responsive and cross browser compatible. Maintaing and improving website.",
-			"company": 'E-Creations Inc.'
+			"title": "React Developer",
+			"date": 'April 2018 - May 2019',
+			"description": "Add details your experience",
+			"company": 'Company Ltda.'
 		},
 		{
-			"title": "Junior Software Engineer (Intern)",
-			"date": 'January 2017 - May 2017',
-			"company": 'Advanced Techinnovations Systems',
-			"description": " Works as junior software engineer and help senior developer in developing the Hanap Trabaho web application."
+			"title": "React Developer",
+			"date": 'April 2018 - May 2019',
+			"description": "Add details your experience",
+			"company": 'Company Ltda.'
+		},
+		{
+			"title": "React Developer",
+			"date": 'April 2018 - May 2019',
+			"description": "Add details your experience",
+			"company": 'Company Ltda.'
 		},
 	]
 
