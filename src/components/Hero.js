@@ -1,5 +1,5 @@
 import React from 'react';
-import introLogo from '../intro-logo.png'
+import introLogo from '../intro-logo.svg';
 import Particles from 'react-particles-js';
 
 const Hero = (props) => {
@@ -14,7 +14,7 @@ const Hero = (props) => {
         <div className="site-intro__wrapper">
 
           <div className="site-intro__logo-wrapper">
-            <img src={introLogo} alt="Wiliam JS Developer" className="site-intro__logo" />
+            <img src={introLogo} alt="" className="site-intro__logo" />
           </div>
 
           <div className="site-intro__main">

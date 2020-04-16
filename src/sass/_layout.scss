@@ -32,7 +32,7 @@
 
 	&__burger-icon {
 		transform: rotate(180deg);
-		fill: #fff;
+		fill: $color-purple;
 		display: block;
 		width: 2.2rem;
 		height: 2.2rem;
@@ -43,7 +43,7 @@
 
 		&--dark {
 			rect {
-				fill: #3d3d3d;
+				fill: $color-purple;
 			}
 		}
 	}
@@ -70,7 +70,10 @@
 	&--sticky {
 		position: fixed;
 		
-		background-image: linear-gradient(120deg, #282a36,#44475a); 
+		background: $color_menu_top;
+		border-width: 2px;
+		border-style: solid;
+		border-color: rgb(40, 39, 44);
 		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 		color: #f8f8f2;
 		
@@ -101,11 +104,11 @@
 		color: inherit;
 
 		&:hover {
-			color: $color-primary;
+			color: $hover_link_a;
 		}
 
 		&--active {
-			color: $color-primary;
+			color: $color-green;
 		}
 	}
 }
@@ -116,7 +119,6 @@
 
 
 .site-intro {
-	background-image: linear-gradient(120deg,#282a36,#44475a);	
 	height: 95vh;
 	color: #fff;
 
@@ -255,7 +257,7 @@
 	font-size: 4rem;
 	font-weight: $normal;
 	padding-bottom: 1.5rem;
-	color: $color-purple;
+	color: $color-purple !important;
 	white-space: nowrap;
 
 	@media only screen and (max-width: $bp-medium) {
@@ -575,9 +577,9 @@
 
 	&__body {
 		position: relative;
-		background-color: #fff;
+		background-color: $color-white;
 		border-radius: 4px;
-		border: 1px solid #eee;
+		border: 4px solid $color-purple;
 		width: 100%;
 		padding: 1rem;
 		margin-bottom: 2rem;
@@ -764,11 +766,11 @@
 	top: 0;
 	right: 0;
 	height: 100%;
-	background-color: #fff;
+	background-color: $color-dark;
 	width: 30rem;
 	transition: 0.3s ease;
     transform: translateX(100%);
-    color: #3d3d3d;
+    color: $color-white;
     padding: 3rem 2rem;
 
 	}
@@ -809,8 +811,8 @@
     }
 }
 
-.stroke-white { stroke: #fff  }
-.text-white { color: #fff }
+.stroke-white { stroke: #444444  }
+.text-white { color: #444444 }
 
 .CircularProgressbar .CircularProgressbar-path {
 	stroke: $color-green;

@@ -31,8 +31,12 @@
 
 
 	&-primary {
-		background-color: $color-primary;
+		background-color: $color-purple;
 		color: #fff;
+	}
+
+	&-primary:hover {
+		background-color: $hover_btn_primary;
 	}
 
 	&-outline-white {
