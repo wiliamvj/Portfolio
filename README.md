@@ -5,9 +5,6 @@
 <center>
 <h2> 👾	 My Portfolio
 
-[wiliam.io](https://wiliam.io)
-
-
 Install packages
 
 ```
