@@ -84,7 +84,7 @@ class Contact extends Component {
                     <div className="col-6">
                       <div className="site-form__form-group">
                         <label htmlFor="input-name" className="site-form__label"> Name </label>
-                        <input type="text" name="name" onBlur={handleBlur} onChange={handleChange} className={`site-form__input ${errors.name && touched.name ? 'site-form__input-error' : ''}`} id="input-name" value={values.name} />
+                        <input type="text" name="name" placeholder="Your Name" onBlur={handleBlur} onChange={handleChange} className={`site-form__input ${errors.name && touched.name ? 'site-form__input-error' : ''}`} id="input-name" value={values.name} />
                         {
                           errors.name && touched.name &&
                           <div className="site-form__error"> {errors.name} </div>
@@ -94,7 +94,7 @@ class Contact extends Component {
                     <div className="col-6">
                       <div className="site-form__form-group">
                         <label htmlFor="input-email" className="site-form__label"> Email </label>
-                        <input type="email" name="email" onChange={handleChange} className={`site-form__input ${errors.email && touched.email ? 'site-form__input-error' : ''}`} id="input-email" value={values.email} />
+                        <input type="email" name="email" placeholder="Your Email" onChange={handleChange} className={`site-form__input ${errors.email && touched.email ? 'site-form__input-error' : ''}`} id="input-email" value={values.email} />
                         {
                           errors.email && touched.email &&
                           <div className="site-form__error"> {errors.email} </div>
@@ -106,7 +106,8 @@ class Contact extends Component {
                     <div className="col-12">
                       <div className="site-form__form-group">
                         <label htmlFor="input-message" className="site-form__label"> Message </label>
-                        <textarea type="text" name="message" onChange={handleChange} className={`site-form__textarea ${errors.message && touched.message ? 'site-form__input-error' : ''}`} rows="8" id="input-message" value={values.message} />
+                        <textarea type="text" placeholder="Message" name="message" onChange={handleChange} className={`site-form__textarea ${errors.message && touched.message ? 'site-form__input-error' : ''}`} rows="10" id="input-message" value={values.message} />
+
                         {
                           errors.message && touched.message &&
                           <div className="site-form__error"> {errors.message} </div>

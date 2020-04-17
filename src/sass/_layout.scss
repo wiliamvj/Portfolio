@@ -646,13 +646,12 @@
 		border-width: 2px;
    	 	border-style: solid;
     	border-color: rgb(40, 39, 44);
-		padding: 0 2rem;
+		padding: 1.5rem 2rem;
 	    font-size: 2rem;
-		font-family: 'Roboto';
 		resize: vertical;
 		&:focus {
-			outline: none;
-			border-color: $color-primary;
+			outline: $color-purple;
+			border-color: $color-purple;;
 		}				
 	}
 
@@ -675,7 +674,7 @@
 
 		&:focus {
 			outline: none;
-			border-color: $color-primary;
+			border-color: $color-purple;
 		}
 	}	
 
