@@ -13,7 +13,6 @@ class Contact extends Component {
   }
 
   onSubmit = (values, { resetForm }) => {
-    const { isShowMsg, isSending } = this.state;
     this.setState({
       isSending: true,
     });
