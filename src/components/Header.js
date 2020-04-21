@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 class Header extends Component {
   constructor(props) {

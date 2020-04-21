@@ -12,7 +12,6 @@ const ProjectList = ({ handleClickProject, imageUrl, title, link }) => {
           <div className="site-project__overlay">
             <div className="site-project__info">
               <a
-                rel="noopener noreferrer"
                 href="javascript:void(0)"
                 onClick={handleClickProject}
                 className="btn btn-outline-white btn-radius btn-md"
