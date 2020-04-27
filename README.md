@@ -6,6 +6,8 @@
 
 <center>
 <h2> 👾	 My Portfolio </h2>
+  
+Modern portfolio built using React
 
 
 Install packages
