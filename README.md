@@ -24,4 +24,4 @@ npm install
 
 To the correct functioning of the form. change the Contact.js file on line 22
 
-https://formcarry.com
+[Formcarry](https://formcarry.com)
